@@ -1,5 +1,8 @@
 # streaming-01-foundations
 
+## Module 1 Steaming Foundations
+### By Jarred Gastreich, May 2026
+
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
@@ -111,7 +114,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/streaming-01-foundations
+git clone https://github.com/jarjarredred/streaming-01-foundations
 
 cd streaming-01-foundations
 code .
