@@ -3,6 +3,9 @@
 ## Module 1 Steaming Foundations
 ### By Jarred Gastreich, May 2026
 
+### Updates
+#### Added producer_jarred.py to calculation total revenue.
+
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
@@ -152,7 +155,7 @@ rm -rf /tmp/kraft-combined-logs
 
 KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
 
-echo "Cluster ID: $KAFKA_CLUSTER_ID"  
+echo "Cluster ID: $KAFKA_CLUSTER_ID"
 
 bin/kafka-storage.sh format --standalone -t "$KAFKA_CLUSTER_ID" -c config/server.properties
 ```
