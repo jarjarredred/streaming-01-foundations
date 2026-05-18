@@ -152,7 +152,7 @@ rm -rf /tmp/kraft-combined-logs
 
 KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
 
-echo "Cluster ID: $KAFKA_CLUSTER_ID"
+echo "Cluster ID: $KAFKA_CLUSTER_ID"  
 
 bin/kafka-storage.sh format --standalone -t "$KAFKA_CLUSTER_ID" -c config/server.properties
 ```
